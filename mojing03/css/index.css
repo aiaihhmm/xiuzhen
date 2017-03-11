@@ -2,33 +2,52 @@
 body, div, address, blockquote, iframe, ul, ol, dl, dt,
 dd, li, dl, h1, h2, h3, h4, pre, table, caption, th, td, form,
 legend, fieldset, input, button, select, textarea
-{margin:0;  padding:0;font-style: normal;font:12px/22px Arial, Helvetica, sans-serif;}
+{margin:0;  padding:0;font-style: normal;font:62.5% Arial, Helvetica, sans-serif;}
 ol, ul ,li{list-style: none;}
 img {border: 0; vertical-align:middle;}
+
 .content
 {
     margin:0 auto;
     width: 90vw;
+    height: 100vh;
     background-color:#68cdd5;
+}
+#arrow
+{
+    margin: 1rem 0 0 1rem;
+    padding-top: 1rem;
 }
 #sign
 {
     text-align: center;
+    margin: 1rem 0 2.7rem;
 }
 #text
 {
     width: 75vw;
     margin:0 auto;
+    line-height: 4rem;
 }
-p
+p,span
 {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 2rem;
     font-family:"Adobe 宋体 Std L"
-    line-height: 54px;
 }
-.one
+span{font-size: 1.2rem;}
+li
+{
+    width: 84px;
+    text-align: center;
+    padding-top: 3.8rem;
+    line-height: 2.5rem;
+}
+#one01
 {
     float: left;
-
+}
+#one02
+{
+    float: right;
 }
