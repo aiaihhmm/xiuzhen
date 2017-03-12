@@ -1,33 +1,32 @@
 /*初始化*/
-body, div, address, blockquote, iframe, ul, ol, dl, dt,
-dd, li, dl, h1, h2, h3, h4, pre, table, caption, th, td, form,
-legend, fieldset, input, button, select, textarea
-{margin:0;  padding:0;font-style: normal;font:62.5% Arial, Helvetica, sans-serif;}
-ol, ul ,li{list-style: none;}
+body, div, ul,li
+{
+    margin:0;
+    padding:0;
+    font-style: normal;
+    font:62.5% Arial, Helvetica, sans-serif;
+}
+ul ,li{list-style: none;}
 img {border: 0; vertical-align:middle;}
 
-.content
+body
 {
-    margin:0 auto;
-    width: 90vw;
-    height: 100vh;
     background-color:#68cdd5;
 }
 #arrow
 {
-    margin: 1rem 0 0 1rem;
-    padding-top: 1rem;
+    padding: 19px 0 0 19px;
 }
 #sign
 {
     text-align: center;
-    margin: 1rem 0 2.7rem;
+    margin: 38px 0 108px;
 }
 #text
 {
-    width: 75vw;
+    width: 75%;
     margin:0 auto;
-    line-height: 4rem;
+    line-height: 58px;
 }
 p,span
 {
@@ -40,8 +39,8 @@ li
 {
     width: 84px;
     text-align: center;
-    padding-top: 3.8rem;
-    line-height: 2.5rem;
+    padding-top: 130px;
+    line-height: 40px;
 }
 #one01
 {
