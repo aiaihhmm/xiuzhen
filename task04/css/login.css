@@ -3,6 +3,7 @@ html {
 }
 body{
     margin: 0;
+    overflow: hidden;
 }
 header,.btn{
     position: absolute;
@@ -50,8 +51,23 @@ header h2{
 .tel,.pwd{
     left: 0;
     right: 0;
+    height: 4.4rem;
     margin: 0.8rem 0;
     background-color: white;
+    }
+span{
+    font-size:2.5rem;
+    color:#eff0f4;
+}
+.tel span{
+    position: absolute;
+    top:1.5rem;
+    left: 4.8rem;
+}
+.pwd span{
+    position: absolute;
+    top:6.7rem;
+    left: 4.8rem;
 }
 .tel01,.pwd01{
     top: 4.4rem;
@@ -59,19 +75,19 @@ header h2{
     height: 4.4rem;
     line-height: 4.4rem;
     border: 0 none;
-    margin:0;
-    padding-left: 6.6rem;
+    padding-left: 7.06rem;
 }
 .tel01{
     background: url("../images/tel.png")no-repeat;
-    background-size: 6.6rem 4.4rem;
+    background-size: 5.06rem 4.4rem;
 }
 .pwd01{
     background: url("../images/pwd.png")no-repeat;
-    background-size: 6.6rem 4.4rem;
+    background-size: 5.06rem 4.4rem;
 }
 .forget{
     color: #5fc0cd;
     float: right;
     margin:4.6rem 1rem;
+    text-decoration: none;
 }
