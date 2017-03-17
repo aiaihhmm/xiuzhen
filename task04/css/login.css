@@ -48,6 +48,9 @@ header h2{
     right: 0;
     background-color: #eff0f4;
 }
+input{
+    outline: none;
+}
 .tel,.pwd{
     left: 0;
     right: 0;
